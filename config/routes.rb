@@ -11,4 +11,6 @@ Curate::Application.routes.draw do
   match ':action' => 'static#:action'
   # map.connect ':action', :controller => "static"
  
+
+  mount_browsercms
 end
